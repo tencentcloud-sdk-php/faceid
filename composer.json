@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/faceid",
+    "description": "TencentCloudApi php sdk faceid",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/faceid",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/faceid",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "VERSION"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
