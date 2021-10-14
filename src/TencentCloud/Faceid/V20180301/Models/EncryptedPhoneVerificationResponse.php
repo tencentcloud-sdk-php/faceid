@@ -27,6 +27,7 @@ use TencentCloud\Common\AbstractModel;
 
 【不收费结果码】
 -7: 身份证号码有误
+-8: 参数错误
 -9: 没有记录
 -11: 验证中心服务繁忙
  * @method void setResult(string $Result) 设置认证结果码:
@@ -36,6 +37,7 @@ use TencentCloud\Common\AbstractModel;
 
 【不收费结果码】
 -7: 身份证号码有误
+-8: 参数错误
 -9: 没有记录
 -11: 验证中心服务繁忙
  * @method string getDescription() 获取业务结果描述。
@@ -53,6 +55,7 @@ class EncryptedPhoneVerificationResponse extends AbstractModel
 
 【不收费结果码】
 -7: 身份证号码有误
+-8: 参数错误
 -9: 没有记录
 -11: 验证中心服务繁忙
      */
@@ -76,6 +79,7 @@ class EncryptedPhoneVerificationResponse extends AbstractModel
 
 【不收费结果码】
 -7: 身份证号码有误
+-8: 参数错误
 -9: 没有记录
 -11: 验证中心服务繁忙
      * @param string $Description 业务结果描述。
